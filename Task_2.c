@@ -14,6 +14,8 @@ int main() {
     printf("\nEnter a String : ");
     scanf("%s", str);
 
+    printf("\n<> --> Represents empty space:: \n");
+
     printf("Result after XOR operation : \n");
     for(char *i = str; *i != '\0'; i++)
     {
@@ -29,6 +31,12 @@ int main() {
     printf("\nResult after OR operation: \n");
     for(char *i = str; *i != '\0'; i++)
     {
+        int ans = *i | 127;
+        if (ans > 126)
+        {
+            printf("<>");
+            continue; 
+        }
         printf("%c", *i | 127);
     }
     

@@ -10,7 +10,7 @@
 int main() {
     char *str = malloc(50 * sizeof(char )); 
     
-    printf("\nEnter a String : ");
+    printf("\nEnter the String : ");
     scanf("%s", str);
 
     printf("Result after XOR operation : \n");

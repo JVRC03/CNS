@@ -54,7 +54,7 @@ public class DESProgram {
             String key = sc.nextLine();
 
             if(key.length() != 8){
-                System.out.println("❌ Key must be exactly 8 characters for DES");
+                System.out.println("❌ Key must be of exactly 8 characters for DES");
                 return;
             }
 

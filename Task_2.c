@@ -14,7 +14,7 @@ int main() {
     printf("\nEnter a String : ");
     scanf("%s", str);
 
-    printf("\n<> --> Represents empty space::  \n");
+    printf("\n<> --> Represents empty space:: \n");
 
     printf("Result after XOR operation : \n");
     for(char *i = str; *i != '\0'; i++)

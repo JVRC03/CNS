@@ -34,7 +34,7 @@ int main() {
         int ans = *i | 127;
         if (ans > 126)
         {
-            printf("<>");
+            printf("<> ");
             continue; 
         }
         printf("%c", *i | 127);

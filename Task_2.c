@@ -17,7 +17,7 @@ int main() {
     printf("\n<> --> Represents empty space:: \n");
 
     printf("Result after XOR operation : \n");
-    for(char *i = str; *i != '\0'; i++)
+    for(char *i  = str; *i != '\0'; i++)
     {
         printf("%c", *i ^ 127);
     }

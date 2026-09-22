@@ -13,7 +13,7 @@ int main() {
     printf("\nEnter the String: ");
     scanf("%s", str);
 
-    printf("Result after XOR operation : \n");
+    printf("Result after  XOR operation : \n");
     
     for(int i = 0; (str[i]) != '\0'; i++)
     {
